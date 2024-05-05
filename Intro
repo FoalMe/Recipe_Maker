@@ -1,5 +1,3 @@
-import API_1
-
 username = input("")
 print("Hello" , username)
 
