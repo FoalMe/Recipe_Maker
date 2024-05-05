@@ -29,7 +29,7 @@ def search():
     ingredients = request.form['ingredients']
     recipes = get_recipes(ingredients)
     if recipes:
-              return render_template('home_page.html' , recipes = recipes)
+              return render_template( index.html , recipes = recipes)
     else:
          return 'Error fetching recipes'
 
